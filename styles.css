@@ -6,11 +6,12 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    line-height: 1.5;
 }
 
 .container {
     display: flex;
-    height: 100%;
+    
     
 }
 
@@ -71,11 +72,11 @@ code {
         position: static;
         flex: 1;
         width: 100%;
-        height: 300px;
     }
 
     .navbar-content {
         border: 1px solid #99A2A2;
+        height: 250px;
     }
 
     #main-doc {
